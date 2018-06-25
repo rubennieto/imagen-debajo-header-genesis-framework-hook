@@ -1,7 +1,7 @@
 <?php   //* Añade imagen debajo de menú, encima del contenido en la front-page
-add_action( 'genesis_after_header', 'after_header_image' );
+add_action( 'genesis_after_header', 'rn_after_header_image' );
 
-function after_header_image() {
+function rn_after_header_image() {
 
     if ( is_front_page() ) {
 
